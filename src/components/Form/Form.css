@@ -1,0 +1,111 @@
+.page-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('assets/family.jpg');
+}
+
+.page > input {
+
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+.page > textarea{
+    border-radius: 5px;
+    border-style: none;
+    width: 300px;
+    height: 100px;
+}
+
+.family-bg{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -10;
+    object-fit: cover;
+    height: 100vh;
+
+}
+.img-bg{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -9;
+    background-color: #061551ad;
+}
+
+.page-controller{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 30vw;
+    min-width: 350px;
+    background-color: #203374f1;
+    border-radius: 5px;
+    height: 50vh;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    color: white;
+}
+.page-controller{
+
+    position: relative;
+}
+
+.page-title{
+    position: absolute;
+    left: 0%;
+    padding: 1%;
+    background-color: #061451;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+    top: 0px;
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+    width: 100%;
+}
+.page-controller-controls{
+display: flex;
+flex-direction: row;
+flex-grow: 1;
+    position: absolute;
+    bottom: 3px;
+    width: 100%;
+
+}
+
+.page-controller-controls > button{
+
+
+    height: 35px;
+    width:80%;
+    flex-grow: 1;
+    margin: 3px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #854DFF;
+    color:white;
+    cursor: pointer;
+}
+
+
+#back-button{
+    flex-grow: 0;
+    width: 50px;
+    min-width: 50px;
+   
+}

@@ -1,0 +1,21 @@
+.nav{
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    background-color: rgb(51, 51, 143);
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.nav > a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.nav > a:active{
+    text-decoration: none;
+    margin: 10px;
+    color: rgb(61, 63, 223);
+}

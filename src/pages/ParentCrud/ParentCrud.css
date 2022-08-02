@@ -1,0 +1,29 @@
+.parent-crud{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.parent{
+    background-color: rgba(235, 235, 235, 0.911);
+
+    margin: 10px;
+
+}
+
+.data-field-container{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+}
+
+.data-field-name{
+    color: rgba(0, 0, 0, 0.527);
+}

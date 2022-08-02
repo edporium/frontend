@@ -1,0 +1,56 @@
+.admin-crud{
+    margin-top: 130px;
+}
+
+.data-object{
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.data-object-edit{
+    width: 100vw;
+    margin:10px;
+    padding-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgba(224, 224, 224, 0.959);
+    padding: 10px;
+    pointer-events: all;
+}
+
+.data-object > *{
+    /* pointer-events: none; */
+}
+
+.data-prop{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 10px;
+}
+
+.data-prop-key{
+    color: rgba(0, 0, 0, 0.623);
+    margin: 5px;
+}
+
+.data-prop-value{
+    margin: 5px;
+
+}
+
+
+.edit-container{
+    margin-top: 130px;
+}
+

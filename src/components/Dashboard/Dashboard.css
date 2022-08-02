@@ -1,0 +1,124 @@
+.dashboard{
+height: 100vh;
+overflow-y: auto;
+
+}
+
+
+.dashboard::-webkit-scrollbar{
+    border-radius: 5px;
+
+    height: 5px;
+    width: 5px;
+    background-color: rgb(87, 45, 240);
+
+}
+
+.dashboard::-webkit-scrollbar-thumb{
+
+    border-radius: 5px;
+
+    background-color: rgba(255, 255, 255, 0.664);
+}
+
+.dashboard-data{
+    overflow-y: auto;
+
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+}
+
+.dashboard-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.dashboard-body{
+    display: flex;
+    flex-grow: 1;
+    min-height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dashboard-header-data{
+
+    display: flex;
+
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    min-width: 200px;
+    
+
+
+    flex-grow: 1;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+
+    margin: 10px;
+}
+
+.week-chart-title{
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.39);
+    font-size: 12px;
+}
+
+.day{
+    font-size: 12px;
+}
+
+.amount{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    background-color: rgb(126, 28, 255);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.column{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.week-chart-container{
+
+    margin: 20px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    flex-grow: 1;
+
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, 0.178);
+}
+
+
+.orders{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    height: 200px;
+    flex-wrap: wrap;
+    margin: 20px;
+min-width: 300px;
+    border-radius: 5px;
+
+    background-color: rgba(0, 0, 0, 0.137);
+}

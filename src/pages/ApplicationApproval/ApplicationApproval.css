@@ -1,0 +1,57 @@
+.application-approval{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.vendor-list{
+    display: flex;
+    flex-direction: column;
+    max-width: 60vw;
+}
+
+.vendor-info-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.vendor-info{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.vendor-controls{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+.vendor-info-title{
+    color: rgba(0, 0, 0, 0.644);
+}
+
+#vendor-approve{
+flex-grow: 1;
+background-color: rgb(39, 151, 39);
+color: white;
+}
+
+#vendor-reject{
+    flex-grow: 1;
+    background-color: rgb(202, 59, 59);
+    color: white;
+}
+
+.vendor-control-button{
+    height: 30px;
+    cursor: pointer;
+}
+

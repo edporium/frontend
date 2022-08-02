@@ -1,0 +1,89 @@
+.input-wrapper{
+
+    position: relative;
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.input-wrapper > label{
+    pointer-events: none;
+    position: absolute;
+
+    left: 5px;
+
+    bottom: 10px;
+
+    color: rgba(0, 0, 0, 0.596);
+
+    transition: all .1s ease-in-out;
+
+    font-size: 12px;
+    
+
+}
+
+.input-label.focused{
+    
+
+    padding: 3px;
+    left: 0;
+
+    bottom: 34px;
+
+    font-size: smaller;
+
+    color: rgba(0, 0, 0, 0.801);
+
+    transition: all .1s ease-in-out;
+
+}
+
+.input-wrapper > input{
+    background-color: rgba(240, 240, 240, 0.452);
+    border: 2px solid rgba(102, 102, 102, 0.137);
+    /* border: 2px solid #d7cfe9; */
+
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    outline: none;
+height: 30px;
+    transition: all .1s ease-in-out;
+
+width: 100%;
+
+
+
+}
+
+
+input.display{
+    border: none;
+
+    pointer-events: none;
+
+    transition: all .2s ease-in-out;
+}
+
+
+.input-wrapper > input.focused{
+
+
+
+
+    transition: all .1s ease-in-out;
+
+}
+.input-wrapper > input[data-autocompleted] {
+    background-color: transparent !important;
+    
+}
+
+.input-wrapper > input:-webkit-autofill,
+.input-wrapper > input:-webkit-autofill:focus {
+    transition: background-color 66666s 0s, color 600000s 0s;
+}

@@ -1,0 +1,16 @@
+ <svg width="20" height="20" version="1.1" viewBox="0 0 25 25">
+ 
+  <g  transform="translate(0 -22.397)">
+    <g id="Group_16" data-name="Group 16" transform="translate(6.723 30.506)">
+      <g id="Group_15" data-name="Group 15" transform="translate(0 0)">
+        <path id="Path_2420" data-name="Path 2420" d="M165.258,204.223l-2.469-1.74a.677.677,0,0,0-1.065.552V204.1H149.871a.676.676,0,1,0,0,1.352h11.853v1.064a.677.677,0,0,0,1.065.552l2.469-1.74A.677.677,0,0,0,165.258,204.223Z" transform="translate(-149.195 -202.358)" />
+      </g>
+    </g>
+    <g id="Group_18" data-name="Group 18" transform="translate(0 22.397)">
+      <g id="Group_17" data-name="Group 17" transform="translate(0 0)">
+        <path id="Path_2421" data-name="Path 2421" d="M19.4,37.263a.676.676,0,0,0-.924.247,9.174,9.174,0,1,1,0-9.174.676.676,0,0,0,1.17-.677,10.526,10.526,0,1,0,0,10.527A.676.676,0,0,0,19.4,37.263Z" transform="translate(0 -22.397)" />
+      </g>
+    </g>
+  </g>
+ 
+ </svg>

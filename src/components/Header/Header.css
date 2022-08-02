@@ -1,0 +1,37 @@
+.logo-container > svg{
+
+    transform: scale(.9);
+
+    display: block;
+
+
+}
+
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 80px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-color: #061451;
+
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+}
+
